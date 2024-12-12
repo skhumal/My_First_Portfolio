@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header, footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  overflow-y: auto;
+  flex: 1;
+}
+
+footer {
+  margin-top: 20px;
+}
